@@ -5,7 +5,7 @@ val=read.table("D:/旧电脑资料/E盘/尹建鑫/蛋白质数据/20161126数据
 library(glinternet)
 library(e1071)
 library(randomForest)
-library(glmnet)
+#library(glmnet)
 
 ligand=read.table("C:\\Users\\10630\\Desktop\\蛋白质竞赛\\Ligm1_data.txt",header = TRUE)
 receptor=read.table("C:\\Users\\10630\\Desktop\\蛋白质竞赛\\1f3cAB_data.txt",header = TRUE)
